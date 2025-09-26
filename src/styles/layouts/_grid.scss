@@ -29,7 +29,7 @@ body {
 		grid-template-areas: "nav content";
 		// background-color: $color-black;
 
-		@media #{$medium} {
+		@media (max-width: $medium) {
 			grid-template-rows: auto 1fr;
 			grid-template-columns: 1fr;
 			grid-template-areas: "nav" "content";
@@ -67,12 +67,12 @@ body {
                 padding-bottom: 12vw;
                 overflow: hidden;
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
                     padding-top:8vw;
                     padding-bottom: 8vw;
 				}
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
 					grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
 				}
 

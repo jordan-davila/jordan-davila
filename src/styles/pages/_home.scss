@@ -10,7 +10,7 @@
         position: relative;
         z-index: 1;
 
-		@media #{$small} {
+		@media (max-width: $small) {
 			padding-top: 8vw;
 		}
 
@@ -60,7 +60,7 @@
 			padding: 0em 4em;
 			overflow: hidden;
 
-			@media #{$medium} {
+			@media (max-width: $medium) {
 				flex-direction: column;
 				transform: translateX(0vw) !important;
 			}
@@ -81,12 +81,12 @@
 				transform: $transform-moveUpSkew;
 				will-change: transform, background-color;
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
 					width: 60vw;
 					margin: 2vw 0;
 				}
 
-				@media #{$small} {
+				@media (max-width: $small) {
 					width: 80vw;
 					margin: 5vw 0;
 				}
@@ -143,7 +143,7 @@
         position: relative;
         z-index: 1;
 
-		@media #{$small} {
+		@media (max-width: $small) {
 			padding-bottom: 8vw;
 		}
 

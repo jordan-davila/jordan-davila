@@ -12,7 +12,7 @@
 			font-family: "CondorCompressed", sans-serif;
 			color: $color-red;
 
-			@media #{$medium} {
+			@media (max-width: $medium) {
 				font-size: 12.6vw;
 			}
 		}
@@ -21,7 +21,7 @@
 			display: flex;
 			margin-bottom: 5vw;
 
-			@media #{$medium} {
+			@media (max-width: $medium) {
 				margin-bottom: 8vw;
 			}
 
@@ -36,7 +36,7 @@
 			.tech {
 				flex: 0 30%;
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
 					flex: 0 40%;
 				}
 
@@ -58,7 +58,7 @@
                     align-items: center;
                 }
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
 					flex: 0 60%;
 				}
 				p {
@@ -83,7 +83,7 @@
 				color: $color-lightest;
 				letter-spacing: 1px;
 
-                @media #{$small} {
+                @media (max-width: $small) {
                     &:first-child {
                         margin-bottom: 2rem;
                     }
@@ -110,13 +110,13 @@
                     }
 
 
-                    @media #{$small} {
+                    @media (max-width: $small) {
                         font-size: 4vw
                     }
                 }
 
                 .icon-link {
-                    background-image: url('/images/icon-link.svg');
+                    // background-image: url('/images/icon-link.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     position: relative;
@@ -129,7 +129,7 @@
                     opacity: 1;
                     align-self: flex-end;
 
-                    @media #{$small} {
+                    @media (max-width: $small) {
                         width: 3vw;
                         height: 3vw;
                     }
@@ -142,7 +142,7 @@
 		width: 100%;
 		margin-left: -4vw;
 
-		@media #{$medium} {
+		@media (max-width: $medium) {
 			margin-left: 0vw;
 		}
 

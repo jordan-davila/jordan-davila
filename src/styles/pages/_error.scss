@@ -16,18 +16,18 @@
                 letter-spacing: .03em
             }
 
-			@media #{$medium} {
+			@media (max-width: $medium) {
 				font-size:16vw
 			}
 		}
 
         .wrap {
-			@media #{$medium} {
+			@media (max-width: $medium) {
 				flex: 0 50%;
 				transform: translateX(0vw);
 			}
 
-			@media #{$small} {
+			@media (max-width: $small) {
 				flex: 1;
 			}
 
@@ -59,13 +59,13 @@
                     }
 
 
-                    @media #{$small} {
+                    @media (max-width: $small) {
                         font-size: 4vw
                     }
                 }
 
                 .icon-link {
-                    background-image: url('/images/icon-link.svg');
+                    // background-image: url('/images/icon-link.svg');
                     background-size: contain;
                     background-repeat: no-repeat;
                     position: relative;
@@ -78,7 +78,7 @@
                     opacity: 1;
                     align-self: flex-end;
 
-                    @media #{$small} {
+                    @media (max-width: $small) {
                         width: 3vw;
                         height: 3vw;
                     }
@@ -99,11 +99,11 @@
 				line-height: 1.7em;
 				color: var(--color-paragraphs);
 
-				@media #{$medium} {
+				@media (max-width: $medium) {
 					font-size: 2vw;
 				}
 
-				@media #{$small} {
+				@media (max-width: $small) {
 					font-size: 4vw;
 				}
 			}

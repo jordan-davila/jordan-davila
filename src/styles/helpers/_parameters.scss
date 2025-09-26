@@ -40,14 +40,8 @@ $spacing-big: 6rem;
 // Media queries
 $tablet: 991px;
 $mobile: 767px;
-
-$medium: (
-	max-width: 991px
-);
-
-$small: (
-	max-width: 767px
-);
+$medium: 991px;
+$small: 767px;
 
 // Font Family
 $font-condensed: "CondorCondensed", sans-serif;
