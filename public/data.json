@@ -7,9 +7,11 @@
         "title": "<i>I'M JORDAN DAVILA. A <br>DEVELOPER FOCUSED ON<br></i>DIGITAL PRODUCTS &amp; EXPERIENCES",
         "description": "I currently work as a full-stack freelance developer at Guru.com. Over the years, I've made quite a few websites, everything from small business sites to mid-high volume media sites.",
         "experiences": [
-            { "company": "Freelance", "job": "Full-Stack Web Developer", "time": "2013 - Present" },
-            { "company": "PCCC", "job": "Computer Science Tutor", "time": "2017 - 2018" },
-            { "company": "WoodPecker's", "job": "Full-Stack Web Developer", "time": "2015 - 2018" }
+            { "company": "Thorium Digital", "job": "Senior Web Engineer", "time": "Sep 2021 - Present" },
+            { "company": "Fairlearn (Contract)", "job": "Front-End Developer", "time": "Jun 2021 - Jul 2021" },
+            { "company": "ECCV (Contract)", "job": "Full-Stack Developer", "time": "Jun 2019 - Jul 2021" },
+            { "company": "PCCC", "job": "Computer Science Tutor", "time": "Sep 2017 - Sep 2018" },
+            { "company": "WoodPecker’s Furniture", "job": "Full-Stack Web Developer", "time": "Sep 2015 - Sep 2018" }
         ]
     },
     "contacts": {

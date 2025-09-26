@@ -1,59 +1,76 @@
 # Jordan Davila
 
-I'm a Web Engineer with 7 years of industry experience and open-source passion. I currently work as a freelancer at Guru.com, helping clients with storefront componentization, developer tooling, and back-end infrastructures. _Javascript_ and _CSS_ are my jams.
+**Senior Web Engineer** with 10+ years of experience building large-scale, content-driven websites and custom developer tooling.
+Currently leading full-stack development at **Thorium Digital**, creating performant, visually engaging, and maintainable platforms for global brands such as **Diageo** (Guinness, Smirnoff, Ketel One, Don Julio, Casamigos), **Galaxy.com**, **Mesh Connect**, and more.
 
-[GitHub](https://github.com/Jordan-Davila)
-<br>
-[Website](https://www.jordandavila.com) (give it a look!)
-<br>
-[Twitter](https://twitter.com/_jordandavila)
-<br>
-[Email](mailto:hi@jordandavila.com)
+I specialize in **advanced front-end architecture, rich user experiences, and web animations** — using **GSAP** and **Lenis** to craft smooth, performant page transitions and scroll-driven interactions. I’m passionate about **clean, scalable code**, mentoring engineers, and improving developer workflows through thoughtful **PR reviews**, coding standards, and internal tools.
 
-### Skills
+[GitHub](https://github.com/Jordan-Davila) · [Website](https://www.jordandavila.com) · [Twitter](https://twitter.com/_jordandavila) · [Email](mailto:hi@jordandavila.com)
 
-I'm familiar with most current industry tooling and framework choices such as _Laravel_, _Vue_, _React_, _Tailwind_, _RestAPI_, and the great majority of _HTML_ and _CSS_ pre/post-processors. I'm also an advocate for readable, clean code and show it through my constant efforts of standardizing coding styles and knowledge sharing.
+---
 
-To top it off, I'm also familiar with cybersecurity and the wide variety of pentesting tools such as _NMap_, _BurpSuite_, _Metasploit_, _SQLMap_ and more.
+## Skills & Expertise
 
-### Latest Projects (open-source)
+- **Front-End:** TypeScript, JavaScript (ESNext), React, Next.js, Astro, Vue, Eleventy, GSAP, Lenis smooth scrolling, CSS/SASS architecture, fluid typography & spacing systems.
+- **Back-End:** Laravel (headless APIs), Node.js/Express, REST APIs, AWS Lambda/S3/CloudFront integrations.
+- **CMS & Content Modeling:** Contentful (SDK design, automated type generation, content migrations, rich text rendering), Headless WordPress.
+- **Tooling & DevOps:** PNPM, ESLint/Prettier, Vite, Webpack, custom CLI utilities, GitHub Actions, CI/CD pipelines.
+- **Design & UX:** Figma-to-code workflows, responsive design systems, Tailwind CSS (heavily customized), accessibility-first thinking.
+- **Collaboration:** Code reviews (PR feedback & architecture guidance), developer mentoring, knowledge sharing, and building standards that scale across teams.
+- **Security & Testing:** Penetration testing basics (Nmap, BurpSuite, SQLMap), automated QA, load testing with Taurus.
 
--   **[`terribooks`](https://jordandavila.com/projects/terribooks)**: Territory Management System designed for a non-profit organization. Tools: Laravel, Vue, Tailwind, Inertia.js
--   **[`saludolatino`](https://jordandavila.com/projects/saludolatino)**: A work in progress project developed to provide services similar to cameo.com. Tools: Laravel, Vue, Tailwind, SPA, RestAPI
--   **[`reward.me`](https://jordandavila.com/projects/reward-me)**: Web application concept developed to challenge users into adopting healthy habits & activities into their daily lives. Tools: Laravel, JavaScript
--   **[`blockyskies`](https://jordandavila.com/projects/blocky-skies)**: Fun, interactive mobile game based on a classic arcade game. Available on the Android & App Store. Tools: Unity3D, C#
+---
 
-### Working Experience
+## Recent Highlights
 
-**[Fairlearn](https://fairlearn.org/)**: Front-end Developer (2021/06 - 2021/07) <sub>UpWork Client</sub>
+- **Galaxy.com** – Architected and modernized a large asset-management platform using **Eleventy + Contentful** with a fully typed SDK, CLI migration tools, and a **custom animation system using GSAP & Lenis** for seamless page transitions.
+- **Diageo Global Brands (Guinness, Smirnoff, Ketel One, Don Julio, Casamigos)** – Delivered highly interactive, content-rich brand experiences powered by **Next.js**, **Tailwind**, and custom headless APIs.
+- **Mesh Connect** – Developed a modular documentation & marketing platform with **Astro**, **Tailwind**, and Contentful, combining markdown + rich text workflows for flexible editorial control.
+- **Custom APIs & Integrations** – Designed secure, decoupled back-ends with **Laravel** and **Node.js**, powering advanced front-end features and content pipelines.
+- **Open-Source & Internal Tooling** – Created a **Tailwind Fluid Design System** and various developer utilities; maintain internal build tools that speed up developer workflows.
+- **Team Development & Mentorship** – Actively review PRs, guide architectural decisions, train developers on modern front-end practices, and champion code quality.
 
-Fairlearn is an open-source, community-driven project to help data scientists improve fairness of AI systems.
-The project was greatly expanded in the second half of 2019 thanks to the involvement of many contributors from _Azure ML_ and _Microsoft Research_.
+---
 
--   Implemented front-end solutions for the agency's landing / documentation page.
--   Collaborate with fellow developers on code reviews, and adhere to coding standards and best practices
--   Used their wireframes & mockups as a guide to create interactive user interfaces using CSS / JavaScript.
--   Perform regular peer code reviews to ensure all projects are built optimally and are defect free
+## Work Experience
 
-**[ECCV](https://eccv.org)**: Full-Stack Developer (2019/06 - 2021/07) <sub>UpWork Client</sub>
+### Thorium Digital — *Senior Web Engineer*
+_Sep 2021 – Present_
 
--   Designed & Developed the agency's career page with PHP/CSS/JavaScript.
--   Fixed bugs from existing websites and implemented enhancements that significantly improved web functionality and speed
--   Performed web application & network penetration tests.
--   Served as the primary responder for managed security incidents pertaining to all web/network components.
+- Lead development for **high-traffic, design-driven websites** for Fortune 500 brands.
+- Architected a **Contentful SDK layer** with automated type generation, migration CLI tools, and rich text rendering.
+- Built **Next.js & Astro front-ends** with advanced **GSAP + Lenis animations**, smooth page transitions, and a custom **fluid design system**.
+- Designed and maintained **headless Laravel APIs** and Node.js services to power dynamic features and editorial workflows.
+- Conduct **in-depth PR reviews**, mentor developers, and set coding standards to maintain a high-quality codebase.
+- Improved build/deployment pipelines (CI/CD, GitHub Actions) and overall developer experience.
 
-**[PCCC](https://web.pccc.edu/)**: Computer Science Tutor (2017/09 - 2018/05)
+### Fairlearn (Contract) — *Front-End Developer*
+_Jun 2021 – Jul 2021_
 
--   Worked closely with multiple computer science students to tutor in Data Structures, Algorithms and Programming Fundamentals.
--   Successfully analyzed and debugged code in C++, Python, JavaScript, and PHP written by many different individuals and provided feedback.
--   Organized tutoring environments to promote productivity and learning.
+- Implemented React/TypeScript UI for the project’s documentation and landing pages.
+- Reviewed code and introduced maintainable styling and architecture patterns.
 
-**[WoodPecker's Furniture](https://woodpeckers-furniture.com/)**: Full-Stack Developer (2015/09 - 2018/01)
+### ECCV (Contract) — *Full-Stack Developer*
+_Jun 2019 – Jul 2021_
 
--   Redesigned and developed their main website from scratch using PHP/CSS/JavaScript
--   Managed and promoted their Brand through social media accounts such as Facebook, Twitter, and Instagram.
--   Designed catalogs, posters and flyers for their products using tools such as Photoshop and InDesign.
+- Developed and maintained the organization’s career portal and event websites.
+- Performed penetration testing and improved the security of web infrastructure.
 
-### Education
+### Passaic County Community College — *Computer Science Tutor*
+_Sep 2017 – May 2018_
 
--   Associate's Degree in Information Technolgy, **Passaic County Community College** _(2015 – 2018)_
+- Tutored students in **Data Structures, Algorithms, and debugging** across C++, Python, JS, and PHP.
+- Helped students understand programming fundamentals and problem solving.
+
+### WoodPecker’s Furniture — *Full-Stack Developer*
+_Sep 2015 – Jan 2018_
+
+- Redesigned and rebuilt the company’s main e-commerce website from scratch.
+- Managed their brand presence through social media and created marketing assets.
+
+---
+
+## Education
+
+**Associate’s Degree in Information Technology**
+_Passaic County Community College — 2015–2018_
