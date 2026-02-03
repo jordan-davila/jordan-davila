@@ -30,6 +30,7 @@ Lead engineer responsible for architecting and delivering enterprise web solutio
 
 - **Bedrock Framework (Turborepo meta-framework):** Shipped platform-level improvements powering 20+ production sites, standardizing project setup, shared UI patterns, TypeScript conventions, and build tooling. Reduced new-site spin-up time by ~40–60% and cut CI friction by ~15–25% through shared configs, reusable foundations, and testing conventions.
 - **Galaxy Digital (galaxy.com):** Led a 3+ year engagement (1,450+ commits), implementing multi-space Contentful integrations with TypeScript codegen, interactive data visualizations, and GSAP-driven experiences. Improved key template performance by ~15–25 Lighthouse points and reduced LCP by ~0.8–1.5s on mobile on targeted pages by optimizing rendering strategy, assets, and runtime behavior.
+-  **Mesh Connect (meshconnect.com):** Delivered the marketing website build in Astro and Webflow, translating designs into reusable components, optimizing performance, and ensuring accessible, maintainable content updates.
 - **Diageo portfolio (21 sites):** Delivered 21 international brand transformations using a repeatable architecture (repo structure, theming, component composition, and QA automation). Reduced duplicated implementation work by ~30–50% and lowered post-launch regressions by ~20–30% through shared components, standardized patterns, and automated checks.
 - **Accessibility leadership:** Implemented Playwright + Axe in CI, expanding automated coverage across core templates and reducing critical accessibility findings later in QA by ~60–80%, supporting WCAG-aligned enterprise requirements.
 - **Component library development:** Built and maintained shared UI component libraries using atomic design principles (atoms/molecules/organisms), improving cross-project velocity and long-term maintainability through documented, reusable primitives.
@@ -71,14 +72,6 @@ Lead engineer responsible for architecting and delivering enterprise web solutio
 
 ## Selected Projects
 
-### Tailwind Fluid Design System (Published npm Package)
-Open source Tailwind CSS plugin providing Figma-accurate fluid sizing utilities via CSS `clamp()`, enabling responsive typography and spacing without media queries.
-
-**Published:** [@jordandavila/tailwind-fluid](https://www.npmjs.com/package/@jordandavila/tailwind-fluid \
-**Technologies:** TypeScript, Tailwind CSS, tsup
-
----
-
 ### Bedrock Framework (Internal Platform)
 Internal Turborepo monorepo architecture used across 20+ production sites, with platform-level improvements across shared UI, TypeScript standards, and testing infrastructure.
 
@@ -109,6 +102,14 @@ Astro starter template with Prismic integration, component registry architecture
 
 **Repository:** [github.com/Jordan-Davila/cascade](https://github.com/Jordan-Davila/cascade) \
 **Technologies:** Astro, Prismic Slice Machine, Tailwind CSS v4, GSAP, Lenis, Swup
+
+---
+
+### Tailwind Fluid Design System (Published npm Package)
+Open source Tailwind CSS plugin providing Figma-accurate fluid sizing utilities via CSS `clamp()`, enabling responsive typography and spacing without media queries.
+
+**Published:** [@jordandavila/tailwind-fluid](https://www.npmjs.com/package/@jordandavila/tailwind-fluid \
+**Technologies:** TypeScript, Tailwind CSS, tsup
 
 ---
 
