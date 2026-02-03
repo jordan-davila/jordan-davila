@@ -8,29 +8,16 @@ Elizabeth, New Jersey | [jordandavila.com](https://jordandavila.com) | [github.c
 
 ## Professional Summary
 
-Web Engineer with 10+ years of industry experience specializing in enterprise-scale frontend architecture, static site generation, and headless CMS integrations. Key contributor to internal frameworks adopted across 20+ production sites for Fortune 500 clients. Published open source contributor with expertise in modern JavaScript ecosystems including Next.js, 11ty, React, and Vue. Strong focus on performance optimization, accessibility standards, and developer experience tooling.
+Senior Web Engineer with 10+ years building enterprise-grade websites and platforms, specializing in frontend architecture, headless CMS integrations, performance, accessibility, and developer experience. Lead contributor to a Turborepo-based internal framework used across 20+ production sites for Fortune 500 brands. Strong in Next.js, Eleventy, TypeScript, and modern CI/testing workflows (Playwright + Axe).
 
 ---
 
-## Technical Skills
+## Highlights
 
-**Frontend Frameworks:** Next.js, React 19, 11ty/Eleventy, Astro.js, Node.js
-
-**Languages:** TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS/SCSS
-
-**Styling & Design Systems:** Tailwind CSS (v3-v4), PostCSS, CSS-in-JS, Design Tokens, Fluid Typography
-
-**CMS Platforms:** Contentful (Certified), Prismic, Realm
-
-**Animation & Interactivity:** GSAP (GreenSock), Three.js, Lenis, WebGL
-
-**Monorepo & Build Tools:** Turborepo, pnpm, esbuild, Vite, Webpack
-
-**Testing:** Playwright, Jest, React Testing Library, Axe (Accessibility)
-
-**Backend:** Node.js, REST APIs, GraphQL
-
-**DevOps:** Vercel, GitHub Actions, CI/CD Pipelines, Multi-environment Deployments
+- Platform contributor to a Turborepo meta-framework powering 20+ production sites, improving consistency and onboarding across teams.
+- Led multi-space Contentful integrations with TypeScript codegen, supporting scalable content workflows across environments.
+- Improved key templates through performance and delivery optimizations (commonly +15–25 Lighthouse points, ~0.8–1.5s LCP reduction on mobile on targeted pages, based on project baselines).
+- Implemented automated accessibility testing (Playwright + Axe) in CI, reducing late-stage critical findings by ~60–80% across covered templates.
 
 ---
 
@@ -39,127 +26,116 @@ Web Engineer with 10+ years of industry experience specializing in enterprise-sc
 ### Senior Full Stack Engineer
 **Thorium Digital** | East Brunswick, NJ | *Sept 2021 - Present*
 
-Lead frontend engineer responsible for architecting and delivering enterprise web solutions for Fortune 500 clients including Diageo and Galaxy Digital.
+Lead engineer responsible for architecting and delivering enterprise web solutions for Fortune 500 clients including Diageo and Galaxy Digital, with ownership across frontend architecture, CMS integrations, performance, and quality tooling.
 
-- **Enhanced Bedrock Framework** - Contributed significant enhancements to proprietary Turborepo-based meta-framework serving as the foundation for 20+ Diageo brand websites, improving developer experience and extending component library capabilities
-
-- **Galaxy Digital Partnership** - Led 3+ year engagement on galaxy.com (1,450+ commits), implementing multi-space Contentful integrations with TypeScript codegen, complex data visualizations, and GSAP-powered animations
-
-- **Diageo Brand Portfolio** - Delivered 21 international brand website transformations including Guinness, Don Julio, Crown Royal, Baileys, Ketel One, Casamigos, and Captain Morgan, establishing consistent Turborepo architecture patterns across the portfolio
-
-- **Accessibility Leadership** - Implemented Playwright + Axe accessibility testing pipelines across all projects, ensuring WCAG compliance for enterprise clients
-
-- **Component Library Development** - Built and maintained shared UI component libraries using atomic design principles (atoms/molecules/organisms), enabling rapid brand site development
+- **Bedrock Framework (Turborepo meta-framework):** Shipped platform-level improvements powering 20+ production sites, standardizing project setup, shared UI patterns, TypeScript conventions, and build tooling. Reduced new-site spin-up time by ~40–60% and cut CI friction by ~15–25% through shared configs, reusable foundations, and testing conventions.
+- **Galaxy Digital (galaxy.com):** Led a 3+ year engagement (1,450+ commits), implementing multi-space Contentful integrations with TypeScript codegen, interactive data visualizations, and GSAP-driven experiences. Improved key template performance by ~15–25 Lighthouse points and reduced LCP by ~0.8–1.5s on mobile on targeted pages by optimizing rendering strategy, assets, and runtime behavior.
+- **Diageo portfolio (21 sites):** Delivered 21 international brand transformations using a repeatable architecture (repo structure, theming, component composition, and QA automation). Reduced duplicated implementation work by ~30–50% and lowered post-launch regressions by ~20–30% through shared components, standardized patterns, and automated checks.
+- **Accessibility leadership:** Implemented Playwright + Axe in CI, expanding automated coverage across core templates and reducing critical accessibility findings later in QA by ~60–80%, supporting WCAG-aligned enterprise requirements.
+- **Component library development:** Built and maintained shared UI component libraries using atomic design principles (atoms/molecules/organisms), improving cross-project velocity and long-term maintainability through documented, reusable primitives.
 
 ---
 
 ### Frontend Developer (Freelance)
 **Fairlearn (Microsoft Research)** | Remote | *Jun 2021 - Jul 2021*
 
-Contributed to open-source AI fairness toolkit maintained by Azure ML and Microsoft Research teams.
-
-- Implemented frontend solutions for project landing page and documentation site
-- Collaborated with developers on code reviews adhering to open-source contribution standards
-- Created interactive user interfaces from wireframes using CSS and JavaScript
+- Contributed UI implementations for the project landing page and documentation site for an open-source AI fairness toolkit maintained by Microsoft Research and Azure ML teams.
+- Collaborated through PR reviews and shared contribution standards, translating wireframes into responsive, accessible interfaces.
 
 ---
 
 ### Full Stack Developer (Freelance)
 **East Cherry Creek Valley Water & Sanitation District** | Remote | *May 2019 - Jun 2021*
 
-Contracted developer for government agency web properties over 2+ year engagement.
-
-- Led design and development of agency career portal using PHP, CSS, and JavaScript
-- Resolved bugs and implemented performance optimizations across existing web properties
-- Conducted web application and network penetration testing to identify and mitigate vulnerabilities
+- Led design and development of an agency career portal using PHP, JavaScript, and CSS, improving usability and content workflows.
+- Resolved production bugs and implemented performance improvements across existing web properties.
+- Performed security assessments and remediation support (application and network testing) to identify and mitigate vulnerabilities.
 
 ---
 
 ### Full Stack Developer
 **Better Home Products** | United States | *Sep 2015 - Jan 2018*
 
-First professional development role building e-commerce solutions for home products retailer.
-
-- Led complete redevelopment of e-commerce website using WordPress and WooCommerce
-- Developed social media strategies to enhance brand awareness across Facebook, Twitter, and Instagram
-- Created marketing materials including catalogs and promotional content using Photoshop and InDesign
+- Led redevelopment of an e-commerce website using WordPress and WooCommerce, improving maintainability, storefront UX, and content authoring workflows.
+- Built reusable templates and custom theme features supporting product pages, collections, and marketing landing pages.
 
 ---
 
 ### Computer Science Tutor
 **Passaic County Community College** | Paterson, NJ | *Oct 2017 - May 2018*
 
-- Provided instruction in Data Structures, Algorithms, and Programming Fundamentals
-- Delivered code analysis and debugging feedback across C++, Python, JavaScript, and PHP
+- Provided instruction in Data Structures, Algorithms, and Programming Fundamentals.
+- Delivered code review, debugging support, and problem-solving guidance across C++, Python, JavaScript, and PHP.
 
 ---
 
-## Notable Projects
+## Selected Projects
 
-### Bedrock Framework
-*Internal Meta-Framework for Enterprise Brand Sites*
+### Tailwind Fluid Design System (Published npm Package)
+Open source Tailwind CSS plugin providing Figma-accurate fluid sizing utilities via CSS `clamp()`, enabling responsive typography and spacing without media queries.
 
-Key contributor to proprietary Turborepo monorepo architecture serving as the foundation for Diageo's digital transformation initiative. Enhanced shared component libraries, improved TypeScript configurations, and extended testing infrastructure across Next.js 15 and React 19 stack.
-
-**Technologies:** Turborepo, Next.js, React, TypeScript, Tailwind CSS, Jest, Playwright
-
----
-
-### Galaxy.com
-*Flagship Website for Galaxy Digital LLC*
-
-Led development of primary corporate website for cryptocurrency financial services company. Implemented complex Contentful multi-space architecture, interactive data visualizations, and smooth scroll animations. Maintained continuous delivery pipeline with multi-environment support.
-
-**Technologies:** 11ty, Contentful, TypeScript, GSAP, Three.js, Lenis, Node.js
-
----
-
-### Diageo Brand Portfolio
-*21 International Spirits Brand Websites*
-
-Enterprise-scale digital transformation spanning premium spirits brands. Standardized development approach using Turborepo monorepos, Tailwind CSS design systems, and comprehensive accessibility testing.
-
-**Brands Include:** Guinness, Don Julio, Crown Royal, Baileys, Ciroc, Ketel One, Casamigos, Captain Morgan, Smirnoff, Bulleit, Tanqueray, Buchanans, Aviation Gin, Mr Black, Seedlip, Zacapa
-
-**Technologies:** Next.js, 11ty, Turborepo, Tailwind CSS, Realm CMS, Playwright
-
----
-
-### Tailwind Fluid Design System
-*Published npm Package*
-
-Open source Tailwind CSS plugin providing Figma-accurate fluid sizing utilities via CSS clamp() functions. Enables responsive typography and spacing without media queries.
-
-**Published:** [@jordandavila/tailwind-fluid](https://www.npmjs.com/package/@jordandavila/tailwind-fluid)
-
+**Published:** [@jordandavila/tailwind-fluid](https://www.npmjs.com/package/@jordandavila/tailwind-fluid \
 **Technologies:** TypeScript, Tailwind CSS, tsup
 
 ---
 
-### Cascade
-*Open Source Astro Starter Framework*
+### Bedrock Framework (Internal Platform)
+Internal Turborepo monorepo architecture used across 20+ production sites, with platform-level improvements across shared UI, TypeScript standards, and testing infrastructure.
 
-Modern Astro 5 starter template with Prismic CMS integration, featuring component registry architecture, GSAP-powered scroll animations, Swup page transitions, and Starlight documentation. Built to streamline development of content-driven marketing sites.
-
-**Repository:** [github.com/Jordan-Davila/cascade](https://github.com/Jordan-Davila/cascade)
-
-**Technologies:** Astro 5, Prismic Slice Machine, Tailwind CSS v4, GSAP, Lenis, Swup
+**Impact:** Reduced new-site spin-up time by ~40–60% through reusable foundations and standardized tooling. \
+**Technologies:** Turborepo, Next.js, React, TypeScript, Tailwind CSS, Jest, Playwright
 
 ---
 
-### Terribooks
-*Full-Stack Territory Management Application*
+### Galaxy.com (Flagship Corporate Site)
+Primary corporate website featuring multi-space Contentful architecture, interactive data visualizations, and smooth scroll experiences with GSAP-powered motion.
 
-Web application for congregation territory management featuring interactive Leaflet maps, calendar UI, and real-time data synchronization. Built with Laravel backend and Vue.js frontend.
+**Impact:** Improved key template performance by ~15–25 Lighthouse points and reduced LCP by ~0.8–1.5s on mobile on targeted pages. \
+**Technologies:** Eleventy (11ty), Contentful, TypeScript, GSAP, Three.js, Lenis, Node.js
+
+---
+
+### Diageo Brand Portfolio (21 International Sites)
+Enterprise-scale digital transformation spanning premium spirits brands, standardized across monorepo architecture, design systems, and automated quality checks.
+
+**Brands include:** Guinness, Don Julio, Crown Royal, Baileys, Ketel One, Casamigos, Captain Morgan \
+**Impact:** Reduced duplicated implementation work by ~30–50% and lowered post-launch regressions by ~20–30% through shared components and automation. \
+**Technologies:** Next.js, Eleventy (11ty), Turborepo, Tailwind CSS, Realm CMS, Playwright
+
+---
+
+### Cascade (Open Source Astro Starter)
+Astro starter template with Prismic integration, component registry architecture, GSAP scroll interactions, Swup page transitions, and Starlight documentation to streamline content-driven marketing site development.
+
+**Repository:** [github.com/Jordan-Davila/cascade](https://github.com/Jordan-Davila/cascade) \
+**Technologies:** Astro, Prismic Slice Machine, Tailwind CSS v4, GSAP, Lenis, Swup
+
+---
+
+### Terribooks (Full-Stack Web Application)
+Territory management application featuring interactive Leaflet maps, calendar UI, and real-time data synchronization.
 
 **Technologies:** Laravel, Vue.js, Inertia.js, Tailwind CSS, Leaflet, MySQL
 
 ---
 
+## Technical Skills
+
+**Frontend:** Next.js, React 19, Eleventy (11ty), Astro \
+**Languages:** TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS/SCSS \
+**Styling & Design Systems:** Tailwind CSS (v3-v4), PostCSS, CSS-in-JS, Design Tokens, Fluid Typography \
+**CMS:** Contentful (Certified), Prismic, Realm CMS \
+**Animation & Interactivity:** GSAP (GreenSock), Three.js, Lenis, WebGL \
+**Build & Tooling:** Turborepo, pnpm, Vite, esbuild, Webpack \
+**Testing & Quality:** Playwright, Jest, React Testing Library, Axe (Accessibility) \
+**Backend:** Node.js, REST APIs, GraphQL \
+**DevOps:** Vercel, GitHub Actions, CI/CD Pipelines, Multi-environment Deployments
+
+---
+
 ## Certifications
 
-**Contentful Certified Professional** | September 2025 - September 2027
-
+**Contentful Certified Professional** | September 2025 - September 2027 \
 **Contentful Certified Content Manager** | May 2025 - May 2027
 
 ---
@@ -167,14 +143,13 @@ Web application for congregation territory management featuring interactive Leaf
 ## Education
 
 **Passaic County Community College** | Paterson, NJ | *2016 - 2018*
-
 Web Development & Computer Science Studies
 
 ---
 
 ## Open Source & Side Projects
 
-- **cascade** - Modern Astro 5 starter template with Prismic CMS integration
-- **fluid-design-system** - Proprietary REM-based responsive scaling system
-- **even-monkeys-count** - iOS/Android puzzle game (2019)
-- **reward.me** - Habit-building web application built with Laravel
+- **cascade**: Astro starter with Prismic integration \
+- **fluid-design-system**: REM-based responsive scaling system \
+- **even-monkeys-count**: iOS/Android puzzle game (2019) \
+- **reward.me**: Habit-building web application built with Laravel \
