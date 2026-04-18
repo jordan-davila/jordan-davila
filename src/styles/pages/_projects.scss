@@ -146,10 +146,12 @@
 			margin-left: 0vw;
 		}
 
-		img {
+		img,
+		video {
 			width: 100%;
 			margin-bottom: 8vw;
             background-color: #383636;
+            display: block;
 		}
 	}
 

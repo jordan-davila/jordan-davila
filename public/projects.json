@@ -1,141 +1,425 @@
 [
     {
+        "name": "Don Julio",
+        "slug": "donjulio",
+        "year": "2024 - 2025",
+        "category": "diageo",
+        "tags": [
+            "next.js",
+            "turborepo",
+            "contentful",
+            "tailwind"
+        ],
+        "description": "Lead Web Engineer on Don Julio's flagship brand site at Diageo (DDP2 platform). Built the \"Our Tequila Journey\" experience and production features across markets, with internationalization, age-gated flows, and performance-focused Next.js architecture.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://www.donjulio.com/our-tequila-journey"
+            },
+            {
+                "name": "DDP2 Case Study",
+                "tag": "case-study",
+                "classColor": "",
+                "url": "https://www.thoriumdigital.com/portfolio/diageo-ddp2-platform-migration-support-digital-transformation-services"
+            }
+        ],
+        "image_path": "donjulio",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Zacapa Rum",
+        "slug": "zacapa-rum",
+        "year": "2024 - 2025",
+        "category": "diageo",
+        "tags": [
+            "next.js",
+            "turborepo",
+            "contentful",
+            "tailwind"
+        ],
+        "description": "Lead Web Engineer on Zacapa's global brand site at Diageo. Shipped product storytelling, cocktail experiences, and regional variants on the shared DDP2 Next.js platform.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://www.zacaparum.com"
+            },
+            {
+                "name": "DDP2 Case Study",
+                "tag": "case-study",
+                "classColor": "",
+                "url": "https://www.thoriumdigital.com/portfolio/diageo-ddp2-platform-migration-support-digital-transformation-services"
+            }
+        ],
+        "image_path": "zacapa-rum",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Guinness",
+        "slug": "guinness",
+        "year": "2024 - 2025",
+        "category": "diageo",
+        "tags": [
+            "next.js",
+            "vercel",
+            "contentful",
+            "tailwind"
+        ],
+        "description": "Lead Web Engineer on Guinness at Diageo — built the global brand homepage and supporting pages on the DDP2 Next.js platform with Vercel delivery.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://www.guinness.com/en"
+            },
+            {
+                "name": "DDP2 Case Study",
+                "tag": "case-study",
+                "classColor": "",
+                "url": "https://www.thoriumdigital.com/portfolio/diageo-ddp2-platform-migration-support-digital-transformation-services"
+            }
+        ],
+        "image_path": "guinness",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Smirnoff",
+        "slug": "smirnoff",
+        "year": "2024 - 2025",
+        "category": "diageo",
+        "tags": [
+            "next.js",
+            "turborepo",
+            "contentful",
+            "tailwind"
+        ],
+        "description": "Lead Web Engineer on Smirnoff at Diageo. Delivered brand pages, campaign landers, and market-specific content on the shared DDP2 Next.js platform.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://www.smirnoff.com"
+            },
+            {
+                "name": "DDP2 Case Study",
+                "tag": "case-study",
+                "classColor": "",
+                "url": "https://www.thoriumdigital.com/portfolio/diageo-ddp2-platform-migration-support-digital-transformation-services"
+            }
+        ],
+        "image_path": "smirnoff",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Galaxy Gravity",
+        "slug": "galaxy-gravity",
+        "year": "2024",
+        "category": "galaxy",
+        "tags": [
+            "eleventy",
+            "contentful",
+            "three.js",
+            "gsap",
+            "sass"
+        ],
+        "description": "Lead Web Engineer on Galaxy Gravity — an 11ty + Contentful site featuring interactive Three.js visuals, GSAP-driven scroll animations, and Lenis smooth scrolling.",
+        "links": [],
+        "image_path": "galaxy-gravity",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Galaxy Ventures",
+        "slug": "galaxy-ventures",
+        "year": "2024",
+        "category": "galaxy",
+        "tags": [
+            "eleventy",
+            "contentful",
+            "gsap",
+            "barba.js",
+            "sass"
+        ],
+        "description": "Lead Web Engineer on Galaxy Ventures — an 11ty + Contentful static site with Barba.js page transitions and GSAP-driven motion.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": ""
+            }
+        ],
+        "image_path": "galaxy-ventures",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "LAWT",
+        "slug": "lawt",
+        "year": "2024 - 2025",
+        "category": "featured",
+        "tags": [
+            "astro",
+            "prismic",
+            "neon",
+            "stripe",
+            "tailwind"
+        ],
+        "description": "Sole developer and designer for LAWT, an independent art platform. Built the full stack on Astro with Prismic CMS, Neon Postgres, and Stripe — including the brand, bilingual site (EN/ES), and commerce flow.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://lawt.art/en"
+            }
+        ],
+        "image_path": "lawt",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
+        "name": "Jeymy Ramos",
+        "slug": "jeymyramos",
+        "year": "2023 - 2024",
+        "category": "featured",
+        "tags": [
+            "eleventy",
+            "contentful",
+            "gsap",
+            "sass"
+        ],
+        "description": "Sole developer and designer for jeymyramos.com — a portfolio site built on 11ty with Contentful CMS and GSAP-driven motion.",
+        "links": [
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://www.jeymyramos.com"
+            }
+        ],
+        "image_path": "jeymyramos",
+        "images": [
+            "01.mp4"
+        ]
+    },
+    {
         "name": "Terribooks",
         "slug": "terribooks",
         "year": "2020 - 2021",
-        "tags": ["laravel", "inertia.js", "vue", "tailwind"],
+        "category": "personal",
+        "tags": [
+            "laravel",
+            "inertia.js",
+            "vue",
+            "tailwind"
+        ],
         "description": "A free open-source Territory Management System. designed to help jw congregations manage and maintain a well organize territory system.",
         "links": [
-			{
-				"name": "View Site",
-				"tag": "production",
-				"classColor": "red",
-				"url": "https://terribooks.com/"
-			},
-			{
-				"name": "View Project Files",
-				"tag": "github",
-				"classColor": "",
-				"url": "https://github.com/Jordan-Davila/terribooks"
-			}
-		],
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://terribooks.com/"
+            },
+            {
+                "name": "View Project Files",
+                "tag": "github",
+                "classColor": "",
+                "url": "https://github.com/Jordan-Davila/terribooks"
+            }
+        ],
         "image_path": "terribooks",
-        "images": ["01.png","02.png","03.png","04.png","05.png","06.png","07.png"]
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png",
+            "06.png",
+            "07.png"
+        ]
     },
     {
         "name": "SaludoLatino",
         "slug": "saludolatino",
         "year": "2019",
-        "tags": ["laravel", "spa", "vue", "tailwind"],
+        "category": "personal",
+        "tags": [
+            "laravel",
+            "spa",
+            "vue",
+            "tailwind"
+        ],
         "description": "A work in progress project developed to provide services similar to cameo.com. The only difference is that it was designed for more spanish speaking users and celebrities.",
         "links": [
-			{
-				"name": "View Site",
-				"tag": "production",
-				"classColor": "red",
-				"url": "https://saludolatino.jordandavila.com/"
-			},
-			{
-				"name": "View Project Files",
-				"tag": "github",
-				"classColor": "",
-				"url": "https://github.com/Jordan-Davila/saludolatino"
-			}
-		],
+            {
+                "name": "View Site",
+                "tag": "production",
+                "classColor": "red",
+                "url": "https://saludolatino.jordandavila.com/"
+            },
+            {
+                "name": "View Project Files",
+                "tag": "github",
+                "classColor": "",
+                "url": "https://github.com/Jordan-Davila/saludolatino"
+            }
+        ],
         "image_path": "saludolatino",
-        "images": ["01.png","02.png","03.png","04.png","05.png"]
+        "images": [
+            "01.png",
+            "02.png",
+            "03.png",
+            "04.png",
+            "05.png"
+        ]
     },
     {
         "name": "XYCC LMS",
         "slug": "xycc-lms",
         "year": "2018",
-        "tags": ["php", "mvc", "javascript"],
+        "category": "personal",
+        "tags": [
+            "php",
+            "mvc",
+            "javascript"
+        ],
         "description": "A free open-source online Learning Management System (LMS). Designed to help educators manage effective online courses, post assignements for students and keep track of their grades. Uses an API to communicate with its Mobile App. Developed for College Capstone Project.",
         "links": [
-			{
-				"name": "View Demo Site",
-				"tag": "demo",
-				"classColor": "red",
-				"url": "https://xycc.jordandavila.com/"
-			},
-			{
-				"name": "View Project Files",
-				"tag": "github",
-				"classColor": "",
-				"url": "https://github.com/Jordan-Davila/xycc"
-			}
-		],
+            {
+                "name": "View Demo Site",
+                "tag": "demo",
+                "classColor": "red",
+                "url": "https://xycc.jordandavila.com/"
+            },
+            {
+                "name": "View Project Files",
+                "tag": "github",
+                "classColor": "",
+                "url": "https://github.com/Jordan-Davila/xycc"
+            }
+        ],
         "image_path": "xycc-lms",
-        "images": ["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg"]
+        "images": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg",
+            "05.jpg",
+            "06.jpg",
+            "07.jpg"
+        ]
     },
     {
         "name": "Reward.Me",
         "slug": "reward-me",
         "year": "2018",
-        "tags": ["laravel", "php", "javascript"],
+        "category": "personal",
+        "tags": [
+            "laravel",
+            "php",
+            "javascript"
+        ],
         "description": "Web application concept developed to challenge users into adopting healthy habits and activities into their daily lives.",
         "links": [
-			{
-				"name": "View Demo Site",
-				"tag": "demo",
-				"classColor": "red",
-				"url": "https://rewardme.jordandavila.com"
-			},
-			{
-				"name": "View Project Files",
-				"tag": "github",
-				"classColor": "",
-				"url": "https://github.com/Jordan-Davila/reward.me"
-			}
-		],
+            {
+                "name": "View Demo Site",
+                "tag": "demo",
+                "classColor": "red",
+                "url": "https://rewardme.jordandavila.com"
+            },
+            {
+                "name": "View Project Files",
+                "tag": "github",
+                "classColor": "",
+                "url": "https://github.com/Jordan-Davila/reward.me"
+            }
+        ],
         "image_path": "reward-me",
-        "images": ["01.jpg","02.jpg","03.jpg","04.jpg"]
+        "images": [
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg"
+        ]
     },
     {
         "name": "Even Monkeys Count",
         "slug": "even-monkeys-count",
         "year": "2018",
-        "tags": ["C#", "Unity3D", "IOS", "Android"],
+        "category": "personal",
+        "tags": [
+            "C#",
+            "Unity3D",
+            "IOS",
+            "Android"
+        ],
+        "description": "Even Monkeys Count is a beautifully addicting minimalist puzzle game, which will keep you entertained for hours. The goal is simple: Connect a sequence of numbers to make a bigger number. Easy, isn’t it? Well, 79.56% of the players can reach to number 9 in the first game, but only 0.56% of them can reach 13 or beyond!",
         "links": [
-			{
-				"name": "View on App Store",
-				"tag": "ios",
-				"classColor": "red",
-				"url": "https://itunes.apple.com/us/app/even-monkeys-count/id1450755670"
-			},
-			{
-				"name": "View On Play Store",
-				"tag": "android",
-				"classColor": "",
-				"url": "https://play.google.com/store/apps/details?id=com.nyanku.evenmonkeyscount"
-			}
-		],
-		"description":
-			"Even Monkeys Count is a beautifully addicting minimalist puzzle game, which will keep you entertained for hours. The goal is simple: Connect a sequence of numbers to make a bigger number. Easy, isn’t it? Well, 79.56% of the players can reach to number 9 in the first game, but only 0.56% of them can reach 13 or beyond!",
+            {
+                "name": "View on App Store",
+                "tag": "ios",
+                "classColor": "red",
+                "url": "https://itunes.apple.com/us/app/even-monkeys-count/id1450755670"
+            },
+            {
+                "name": "View On Play Store",
+                "tag": "android",
+                "classColor": "",
+                "url": "https://play.google.com/store/apps/details?id=com.nyanku.evenmonkeyscount"
+            }
+        ],
         "image_path": "even-monkeys-count",
-        "images": ["01.png"]
+        "images": [
+            "01.png"
+        ]
     },
     {
         "name": "Blocky Skies",
         "slug": "blocky-skies",
         "year": "2018",
-        "tags": ["C#", "Unity3D", "IOS", "Android"],
+        "category": "personal",
+        "tags": [
+            "C#",
+            "Unity3D",
+            "IOS",
+            "Android"
+        ],
+        "description": "Dodge Barriers, Collect Gold Coins and get the Highest Score. Take to the skies for an endless arcade game. Its fun, furious and very addictive! Collect Gold Coins and Unlock all themes and maps.",
         "links": [
-			{
-				"name": "View on App Store",
-				"tag": "ios",
-				"classColor": "red",
-				"url": "https://itunes.apple.com/us/app/blocky-skies/id1287630601"
-			},
-			{
-				"name": "View On Play Store",
-				"tag": "android",
-				"classColor": "",
-				"url": "https://play.google.com/store/apps/details?id=com.nyanku.blockyskies"
-			}
-		],
-		"description": "Dodge Barriers, Collect Gold Coins and get the Highest Score. Take to the skies for an endless arcade game. Its fun, furious and very addictive! Collect Gold Coins and Unlock all themes and maps.",
+            {
+                "name": "View on App Store",
+                "tag": "ios",
+                "classColor": "red",
+                "url": "https://itunes.apple.com/us/app/blocky-skies/id1287630601"
+            },
+            {
+                "name": "View On Play Store",
+                "tag": "android",
+                "classColor": "",
+                "url": "https://play.google.com/store/apps/details?id=com.nyanku.blockyskies"
+            }
+        ],
         "image_path": "blocky-skies",
-        "images": ["01.png"]
+        "images": [
+            "01.png"
+        ]
     }
 ]

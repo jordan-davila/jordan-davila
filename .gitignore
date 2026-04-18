@@ -2,6 +2,9 @@
 .DS_Store
 .sass-cache
 
+# Local backups of re-encoded media
+*.orig.mp4
+
 # Directories.
 /log
 /bower_components

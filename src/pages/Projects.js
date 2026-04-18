@@ -10,12 +10,13 @@ class Projects extends Component {
 		this.setState(project);
 	}
 
-	getImages() {
-		let images = [];
-        for (let index = 0; index < this.state.images.length; index++) {
-            images.push(`/images/${this.state.image_path}/${this.state.images[index]}`);
-        }
-		return images;
+	getMedia() {
+		return this.state.images.map((filename) => {
+			const src = `/images/${this.state.image_path}/${filename}`;
+			const ext = filename.split(".").pop().toLowerCase();
+			const isVideo = ext === "mp4" || ext === "webm" || ext === "mov";
+			return { src, isVideo, ext };
+		});
 	}
 
 	render() {
@@ -54,8 +55,20 @@ class Projects extends Component {
 
                     {this.state.images.length ? (
                         <div className="images">
-                            {this.getImages().map(path => (
-                                <img alt="" key={path} src={path} />
+                            {this.getMedia().map(({ src, isVideo, ext }) => (
+                                isVideo ? (
+                                    <video
+                                        key={src}
+                                        src={src}
+                                        autoPlay
+                                        muted
+                                        loop
+                                        playsInline
+                                        preload="metadata"
+                                    />
+                                ) : (
+                                    <img alt="" key={src} src={src} />
+                                )
                             ))}
 					    </div>
                     ) : (null)}
