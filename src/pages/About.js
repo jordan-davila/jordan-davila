@@ -2,11 +2,16 @@ import React, { Component } from "react";
 import ContentContainer from "../components/ContentContainer";
 import Main from "../components/Main";
 import Nav from "../components/Nav";
+import Seo from "../components/Seo";
 
 class About extends Component {
 	render() {
 		return (
 			<Main page={"about"}>
+				<Seo
+					title="About"
+					description="Full-stack web engineer focused on digital products and experiences — currently at Thorium Digital."
+				/>
 				<Nav back="/" page="About" />
 				<ContentContainer>
 					<div className="title">

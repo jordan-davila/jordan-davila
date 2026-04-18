@@ -3,11 +3,13 @@ import ContentContainer from "../components/ContentContainer";
 import Main from "../components/Main";
 import Nav from "../components/Nav";
 import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
 
 class Error extends Component {
 	render() {
 		return (
 			<Main page={"error"}>
+				<Seo title="Not Found" description="That page doesn't exist." />
 				<Nav back="/" page="Error" />
 				<ContentContainer>
 					<div className="title">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import marked from "marked";
+import Seo from "../components/Seo";
 
 class Resume extends Component {
     constructor(props) {
@@ -29,6 +30,10 @@ class Resume extends Component {
 
         return (
             <section className="resume">
+                <Seo
+                    title="Resume"
+                    description="Experience, skills, and selected work."
+                />
                 <article dangerouslySetInnerHTML={{__html: markdown}}></article>
             </section>
         )

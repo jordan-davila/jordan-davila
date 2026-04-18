@@ -4,6 +4,7 @@ import HomeHeader from "../components/HomeHeader";
 import HomeFooter from "../components/HomeFooter";
 import HomeModel from "../components/HomeModel";
 import Main from "../components/Main";
+import Seo from "../components/Seo";
 
 class Home extends Component {
 	constructor(props) {
@@ -23,6 +24,7 @@ class Home extends Component {
 	render() {
 		return (
 			<Main page={"home"} style={{ backgroundColor: this.state.bg }}>
+				<Seo description="Web engineer and designer building unique, engaging digital experiences." />
 				<HomeHeader changeColors={this.changeColors} text={this.state.text} />
 				<HomeNav changeColors={this.changeColors} text={this.state.text} />
 				<HomeFooter changeColors={this.changeColors} text={this.state.text} />

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Main from "../components/Main";
 import ContentContainer from "../components/ContentContainer";
 import Nav from "../components/Nav";
+import Seo from "../components/Seo";
 import _ from "lodash";
 
 class Projects extends Component {
@@ -22,6 +23,10 @@ class Projects extends Component {
 	render() {
 		return (
 			<Main page={"projects"}>
+				<Seo
+					title={this.state.name}
+					description={this.state.description}
+				/>
 				<Nav back="/work" page="Projects" />
 				<ContentContainer>
 					<div className="project-info">

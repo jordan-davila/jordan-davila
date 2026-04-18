@@ -3,6 +3,7 @@ import ContentContainer from "../components/ContentContainer";
 import Main from "../components/Main";
 import { Link } from "react-router-dom";
 import Nav from "../components/Nav";
+import Seo from "../components/Seo";
 
 const GROUPS = [
     { key: "featured", label: "Featured" },
@@ -25,6 +26,10 @@ class Work extends Component {
         const groups = this.groupProjects();
         return (
             <Main page={"work"}>
+                <Seo
+                    title="Work"
+                    description="Selected client and personal projects — Diageo brands, Galaxy sites, and independent work."
+                />
                 <Nav back="/" page="Work" />
                 <ContentContainer>
                     {groups.map((group) => (

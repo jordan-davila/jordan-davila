@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { Transition, TransitionGroup } from "react-transition-group";
 import { Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import { Play, Exit } from "./timelines";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
@@ -43,6 +44,7 @@ class Parent extends React.Component {
     render() {
 
        return this.state.dataIsReturned && this.state.projectsIsReturned ?
+       <HelmetProvider>
        <BrowserRouter>
        <Route
            render={({ location }) => {
@@ -60,7 +62,8 @@ class Parent extends React.Component {
                );
            }}
        />
-   </BrowserRouter> :
+   </BrowserRouter>
+   </HelmetProvider> :
    <div className="loading"></div>;
     }
   }
