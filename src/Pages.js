@@ -1,3 +1,4 @@
+import Healthcare from "./pages/Healthcare";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 import Projects from "./pages/Projects";
@@ -7,6 +8,16 @@ import Resume from "./pages/Resume";
 import Error from "./pages/Error";
 
 export const Pages = [
+    {
+        id: 7,
+        isMainMenu: false,
+        name: "Healthcare",
+        path: "/healthcare",
+        params: "",
+        colors: { text: "#2c2a2a", bg: "#fbfbfb", cursor: "#2c2a2a" },
+        modelColor: 0x2c2a2a,
+        component: Healthcare
+    },
 	{
 		id: 0,
 		isMainMenu: false,

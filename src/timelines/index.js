@@ -8,6 +8,11 @@ import { Pages } from "../Pages";
 import _ from "lodash";
 
 export const Play = (fullPath, node) => {
+    if (GetPath(fullPath) === "/healthcare") {
+        ChangeBGColor("#fbfbfb");
+        node.style.opacity = "1";
+        return;
+    }
 	let timeline;
 	let path = GetPath(fullPath);
 
@@ -26,6 +31,10 @@ export const Play = (fullPath, node) => {
 };
 
 export const Exit = (fullPath, node) => {
+    if (GetPath(fullPath) === "/healthcare") {
+        node.style.opacity = "0";
+        return;
+    }
 	let timeline;
 	let path = GetPath(fullPath);
 
